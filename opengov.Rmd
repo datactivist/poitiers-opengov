@@ -1,0 +1,202 @@
+---
+title: "Formation Open Government : après les données, ouvrons l'action publique ! "
+author: Samuel Goeta, datactivi.st
+output:
+  xaringan::moon_reader:
+    css: [default, assets/xaringan.css]
+    seal: FALSE
+    chakra: libs/remark-latest.min.js
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+class: center, middle
+
+# Open Government: après les données, ouvrons l'action publique !
+
+</BR>
+</BR>
+</BR>
+
+### Samuel Goëta
+
+<img src="./img/Logo_DATACTIVIST_TW.png" height="100px" />
+---
+class: inverse, center, middle
+
+Retrouvez les matériaux sur https://github.com/datactivist/formation_Poitiers-opengov/ 
+
+Ces slides en ligne : http://datactivi.st/formation_Poitiers-opengov/opengov.Rmd/
+
+Pad collaboratif : https://frama.link/poitiers-opengov/
+
+---
+# Au programme
+
+### DataSandwich : Open Government
+- Les origines de l'Open Government
+- Les grands principes de l'Open Government
+- Le fonctionnement de l'Open Government Partnership
+
+### DataTruc : atelier d'idéation avec l'OGP Toolbox
+- Découverte de l'OGPToolbox
+- Découverte de l'OGPExplorer
+- Idéation avec OpenGovCanvas
+
+
+---
+# Objectifs 
+- Découvrir les grands principes de l’open
+government
+
+- Comprendre la continuité entre ouverture
+des données et ouverture des gouvernements
+
+- Découvrir des bonnes pratiques nationales
+et internationales dans les collectivités locales
+
+- Envisager de nouveaux projets de transparence,
+collaboration et participation
+
+- Découvrir des outils disponibles et librement
+réutilisables
+
+---
+class: inverse, center, middle
+# Aux origines de l'open government
+
+---
+# 1945 : la société ouverte et ses ennemis
+![](http://1.bp.blogspot.com/-4xy95xyy75Q/U1VN-uZ1J3I/AAAAAAAAC_w/ZAYJOrxm0n8/s1600/0708-nz-kpopper-chc-205-medres.jpg)
+.right[.footnote[<a href='http://www.henriverdier.com/2014/04/conference-de-paris-sur-lopen-data-et.html'>source</a>]]
+---
+# La guerre du Vietnam et le Freedom of Information Act
+.reduite[![](img/sunshine.jpg)]
+
+---
+# 2007 : les nouvelles ambiguités de l'open government
+![Sebastopol](img/sebastopol.jpg)
+.right[.footnote[<a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2012489'>source</a>]]
+---
+# 2008 : Obama signe trois mémorandums sur l'open government
+.pull-left[![](http://nsarchive.gwu.edu/news/20090121/transparency.jpg)]
+.pull-right[![](http://blog.heartland.org/wp-content/uploads/2013/11/executive-order1.jpg)]
+
+---
+# 2011 : Open Government Declaration
+.reduite[![](img/declaration.png)]
+---
+class: center, inverse, middle
+# Les principes de l'Open Government
+
+---
+# Transparence, participation, collaboration : les principes essentiels
+.reduite[![](img/opengov.jpg)]
+---
+# En détail : 1. L'accès à l'information publique
+.pull-left[
+> **Améliorer l’accès à l’information des gouvernements et administrations.** 
+
+> Les administrations recueillent et conservent des données au nom de leurs ressortissants, et les citoyens sont en droit d’obtenir des informations sur leurs administrations et de leur gouvernement.]
+.pull-right[
+![](http://chronicleillinois.com/wp-content/uploads/2015/03/Illinois-031815-sunshine-week-cartoon-1-300x239.jpg)
+]
+
+---
+# En détail : 2. Encourager la participation
+.pull-left[
+>**Soutenir la participation civile**. 
+
+>Nous reconnaissons la nécessité d’une participation citoyenne équitable et non-discriminatoire dans la prise de décision publique. L’engagement citoyen, notamment la pleine participation des femmes, améliore l’efficacité de l’action publique, par la vigilance et l’expertise citoyenne. 
+]
+.pull-right[
+![](http://www1.toronto.ca/City%20Of%20Toronto/Parks%20Forestry%20&%20Recreation/05Community%20Involvement/Files/images/F/fmp-public-consultation.jpg)
+]
+---
+# En détail : 3. Intégrité de l'administration
+.pull-left[> **Instaurer des normes d’intégrité professionnelle exemplaires dans nos administrations.**
+
+>Une administration qui rend des comptes exige de ses fonctionnaires un haut niveau d’éthique et des codes de conduite rigoureux.]
+.pull-right[![](img/integrity.png)]
+---
+# En détail : 4. Utiliser les technologies pour une plus grande ouverture
+.pull-left[>**Améliorer l’accès aux nouvelles technologies pour une plus grande ouverture et une responsabilité accrue.** 
+>Les nouvelles technologies facilitent le partage d’information, la participation citoyenne et la co- création de l’action publique.] 
+.pull-right[![](https://www.politizr.com/uploads/cache/debate_header/uploads/documents/47459ace9faf54cb6e09700d5bd5c5db.jpeg)]
+---
+class:inverse,center, middle
+# Le fonctionnement de l'Open Government Partnership
+
+---
+# Des plans d'action et un mécanisme de contrôle permanent
+.center.middle[<img src="img/ogp_mecanisme.jpeg" width="85%"/>]]
+.right[.footnote[<a href='http://www.opengovpartnership.org/sites/default/files/OGP_Booklet_20160911_FR.pdf'>source</a>]]
+---
+# Une évaluation indépendante des plans d'actions
+.pull-left[
+**IRM : Independant Research Mechanism**
+- En charge de l'évaluation indépendante de la conception et de la mise en oeuvre des plans d'action
+- Chercheurs indépendants
+- Evaluation de l'impact et du niveau de réalisation
+- Garant de l'implication de la société civile
+- Produit des données qualitatives et quantitatives
+]
+.pull-right[
+.reduite[![IRM Data Dashboard](img/IRM-dashboard.png)]]
+---
+# 70 pays membres
+.reduite.center[![](img/countries.png)]]
+---
+# 70 pays membres
+<img src="img/map.png" style="float:right" />
+---
+# Les thématiques des plans d'action de l'OGP
+![](img/tags.png)
+
+---
+# Partager des actions : Open Government Guide
+[![](img/guide.png)](http://www.opengovguide.com)
+
+---
+# Explorer les données des plans d'action : OGP Explorer
+[![](img/explorer.png)](http://www.opengovpartnership.org/explorer/all-data.html)
+
+---
+class:center,middle,inverse
+#DataTruc : atelier d'idéation avec l'OGPToolbox
+
+---
+# [Ogptoolbox.org](ogptoolbox.org) : la boite à outils de l'open government
+.reduite[![](img/toolbox.png)]
+---
+# Rappel des objectifs de l'atelier
+- Découvrir des bonnes pratiques nationales
+et internationales dans les collectivités locales
+
+- Envisager de nouveaux projets de transparence,
+collaboration et participation
+
+- Découvrir des outils disponibles et librement
+réutilisables
+---
+# Comment faire ?
+- Formez des groupes de 2/3 personnes si possible d'un même service
+
+- Il faut un ordinateur par groupe
+
+- Remplissez les problèmes et les cibles dans l'OpenGovCanvas 
+
+- Parcourez l'OGPToolbox et découvrez des outils qui pourraient correspondre
+
+- Complétez l'OpenGovCanvas
+
+---
+# Comment remplir l'OpenGovCanvas ?
+.reduite[![](img/canvas.jpg)]
